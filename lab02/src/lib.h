@@ -25,11 +25,13 @@
  * Тип тварини
  */
 enum animal_type {
-	PIG, /**< Свиня */
-	COW, /**< Корова */
-	DOG, /**< Собака */
-	CAT, /**< Кіт */
+	PIG,/**< Boar */
+	COW,/**< Bear */
+	DOG,/**< Wolf */
+	CAT,/**< Tiger*/
+    HUMAN,/**< Людина*/
 	ANIMAL_TYPE_COUNT /**< Кількість тварин */
+
 };
 
 /**

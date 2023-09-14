@@ -19,7 +19,7 @@ TEST(ProgramingLab00, test_get_animal_by_name)
   const size_t DATA_SIZE = 6;
 
   AnimalType input_data[] = { CAT, DOG, COW, PIG, ANIMAL_TYPE_COUNT, static_cast<AnimalType>(ANIMAL_TYPE_COUNT + 1) };
-  string expected_values[] = { "Кіт", "Собака", "Корова", "Свиня", "N/A", "N/A" };
+  string expected_values[] = { "Wolf", "Tiger", "Bear", "Boar", "N/A", "N/A" };
 
   for (size_t i = 0; i < DATA_SIZE; i++) {
     const string actual_value = getAnimalTypeName(input_data[i]);
