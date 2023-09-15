@@ -1,4 +1,4 @@
 dist/
 .idea
 cmake-build-debug
-lab02/dist
+dist
